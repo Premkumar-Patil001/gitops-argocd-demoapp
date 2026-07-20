@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: gitops-demo-app
-        image: premkumar71/gitops-demo-app:v1
+        image: premkumar71/gitops-demo-app:v2
         imagePullPolicy: Always
         env:
         - name: APP_VERSION
